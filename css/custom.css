@@ -1,0 +1,31 @@
+#menu{
+background-image: "/img/fondos/azul.png";
+
+}
+
+header{
+    background-color:rgb(254, 0, 0);
+    box-shadow: inset 2px 2px 15px 3px;
+}
+
+#titulo{
+    width: 150px;
+    height: 60px;
+}
+.carousel-inner{
+
+
+z-index: -1;
+}
+
+#corte{
+    z-index: 10;
+    margin-top: -740px;
+}
+
+.navbar-toggler{
+    background-image: url(/img/mezcla/bloque-_.png);
+    width: 40px;
+    height: 40px;
+}
+
