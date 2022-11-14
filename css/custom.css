@@ -116,8 +116,6 @@ z-index: -1;
         height: 20px;
     }
 
-
-    
    .navbar-toggler{
     background-image: url(/img/mezcla/bloque_20x20.png);
     width: 20px;
@@ -133,12 +131,11 @@ z-index: -1;
     }
     
     #mordido{
-        height: 300px;
+        height: 400px;
         margin-top: -100px;
     }
     .section1{
-    margin-top: -30px
-    ;
+    margin-top: 0px;
     }
 
     .tubosJuegos{
