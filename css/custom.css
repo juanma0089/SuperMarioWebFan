@@ -1,22 +1,23 @@
-#menu{
-background-image: "/img/fondos/azul.png";
 
+
+#titulo{
+    width: 150px;
+    height: 60px;
 }
 
 header{
     background-color:rgb(254, 0, 0);
     box-shadow: inset 2px 2px 15px 3px;
 }
-
-#titulo{
-    width: 150px;
-    height: 60px;
-}
 .carousel-inner{
-
-
+    
 z-index: -1;
 }
+.carousel-item{
+   
+    height: 1020px;
+    
+    }
 
 #corte{
     z-index: 10;
@@ -25,7 +26,47 @@ z-index: -1;
 
 .navbar-toggler{
     background-image: url(/img/mezcla/bloque-_.png);
+
     width: 40px;
     height: 40px;
+}
+
+#historia{
+
+    
+
+}
+
+@media only screen and (max-width: 820px){
+    #titulo{
+        width: 70px;
+        height: 30px;
+    }
+    .carousel-item{
+  
+        height: 500px;
+        
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #titulo{
+        width: 50px;
+        height: 20px;
+    }
+   .navbar-toggler{
+    background-image: url(/img/mezcla/bloque_20x20.png);
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+   }
+   .collapse{
+    font-size: small;
+   }
+   .carousel-item{
+  
+    height: 250px;
+    
+    }
 }
 

@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
     <script defer src="./js/bootstrap.bundle.js"></script>
@@ -11,85 +10,151 @@
     <title>SuperMarioWebFan</title>
   </head>
   <body >
-
-    <!-- cabecera -->
-   <header>
-    <div class="container-fluid align-items-center text-center " >
-    <img src="/img/mezcla/Super_Mario_logo_PNG13.png" id="titulo" class="img-fluid" alt="" srcset="">
-   </div>
-  </header>
-   
-   <!--Menú -->
-   <nav class="navbar navbar-expand-lg" style="background-image: url(/img/fondos/fibra.jpg);" id ="menu">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      </button>
-      <div class="collapse navbar-collapse mx-5 " id="navbarTogglerDemo01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active  text-light" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active  text-light" aria-current="page" href="#">Historia de Mario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Personajes</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-<!-- carrusel fundido -->
-
-<div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
-  
-  <div class="carousel-inner">
+  <div class="container-fluid p-0" id="conPrincipal">
+      <!-- cabecera -->
+      <div class="row p-0">
+        <div class="col-12" id="header-area">
+          <header class="">
+            <div class="container text-center">
+              <img
+                src="/img/mezcla/Super_Mario_logo_PNG13.png"
+                id="titulo"
+                class="img-fluid"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </header>
+        </div>
+        <!-- menu -->
+        
+          <div class="col-12" id="menu">
+            <nav class="navbar navbar-expand-lg m" style="background-image: url(/img/fondos/fibra.jpg);" id ="menu" >
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                <div class="collapse navbar-collapse mx-5 " id="navbarTogglerDemo01">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active  text-light" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active  text-light" aria-current="page" href="#historia">Historia de Mario</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Personajes</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
     
-    <div class="carousel-item active">
-      <img src="/img/carrusel/carrusel1.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel2.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel3.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel4.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel5.png" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel6.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
-    <div class="carousel-item">
-      <img src="/img/carrusel/carrusel7.jpg" class="d-block w-100 img-fluid" alt="...">
-      <img src="/img/fondos/corte_fondo.png" alt="" id="corte">
-    </div>
+          </div>
+        
+        <!-- carrusel fundido -->
+        <div class="col-12 p-0" id="carrusel">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/img/carrusel/carrusel1.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel2.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel3.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel4.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel5.png"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel6.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/carrusel/carrusel7.jpg"
+                  class="d-block w-100 h-100 img-fluid"
+                  alt="..."
+                />
+                <img src="/img/fondos/corte_fondo.png" alt="" id="corte" />
+              </div>
+            </div>
 
-  </div>
-  <div>
-   
-  </div>
-  
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
-</div>
-
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- seccion historia -->
+        <div class="col-12 bg-danger" id="historia">
+            <div class="container text-center">
+              <img
+                src="/img/mezcla/Super_Mario_logo_PNG13.png"
+                id="titulo"
+                class="img-fluid"
+                alt=""
+                srcset=""
+              />
+            </div>
+        </div>
+      </div>
   </body>
 </html>
