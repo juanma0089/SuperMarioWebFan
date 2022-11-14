@@ -1,4 +1,15 @@
-
+body {
+    /* Ruta relativa o completa a la imagen */
+    background-image: url(/img/fondos/azul.png);
+    /* Centramos el fondo horizontal y verticalmente */
+    background-position: center center;
+    /* El fonde no se repite */
+    background-repeat: no-repeat;
+    /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+    background-attachment: fixed;
+    /* El fonde se re-escala automáticamente */
+    background-size: cover;
+}
 
 #titulo{
     width: 150px;
@@ -9,7 +20,7 @@ header{
     background-color:rgb(254, 0, 0);
     box-shadow: inset 2px 2px 15px 3px;
 }
-.carousel-inner{
+.carrusel1{
     
 z-index: -1;
 }
@@ -19,6 +30,19 @@ z-index: -1;
     
     }
 
+.section1{
+    margin-top: -50px;
+}
+.navbar-nav{
+    margin: auto;
+}
+#mordido{
+    
+    height: 600px;
+    margin-top: -190px;
+    z-index: -5;
+    background-color:rgb(254, 0, 0);
+}
 #corte{
     z-index: 10;
     margin-top: -740px;
@@ -31,12 +55,37 @@ z-index: -1;
     height: 40px;
 }
 
-#historia{
+.botonSpace{
+    margin-right: 20px;
+}
 
-
+.botonesMenu{
+    border: 2px solid;
+    color: white;
+    background: linear-gradient(to right, transparent  50%,rgb(254, 0, 0) 50%) no-repeat left/200%;
+    transition: background-position 0.2s ease;
+}
+.botonesMenu:hover{
+    background-position: right;
+    border: 2px solid;
+    color: white;
+    transition: .2s ease-out;
+    
 
 }
 
+.tubosJuegos{
+    padding-top: 200px;
+}
+
+.carruselJuegos{
+    z-index: +20;
+    
+}
+
+.carrusel2{
+    max-height: 350px;
+}
 @media only screen and (max-width: 820px){
     #titulo{
         width: 70px;
@@ -46,14 +95,29 @@ z-index: -1;
   
         height: 500px;
         
-        }
+    }
+    .botonesMenu{
+        background: transparent;
+    }
+
+    .tubosJuegos{
+        padding-top: 100px;
+    }
 }
 
+
+#tuboD{
+    padding: 0px 0px;
+    margin-right: 0px;
+}
 @media only screen and (max-width: 480px){
     #titulo{
         width: 50px;
         height: 20px;
     }
+
+
+    
    .navbar-toggler{
     background-image: url(/img/mezcla/bloque_20x20.png);
     width: 20px;
@@ -66,7 +130,19 @@ z-index: -1;
    .carousel-item{
   
     height: 250px;
-    
     }
-}
+    
+    #mordido{
+        height: 300px;
+        margin-top: -100px;
+    }
+    .section1{
+    margin-top: -30px
+    ;
+    }
 
+    .tubosJuegos{
+        padding-top: 100px;
+    }
+
+}
