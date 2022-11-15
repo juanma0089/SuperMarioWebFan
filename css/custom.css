@@ -1,6 +1,6 @@
 body {
     /* Ruta relativa o completa a la imagen */
-    background-image: url(img/fondos/azul.png);
+    background-image: url(../img/fondos/azul.png);
     /* Centramos el fondo horizontal y verticalmente */
     background-position: center center;
     /* El fonde no se repite */
@@ -53,7 +53,7 @@ z-index: -1;
 }
 
 .navbar-toggler{
-    background-image: url(.img/mezcla/bloque-_.png);
+    background-image: url(../img/mezcla/bloque-_.png);
 
     width: 40px;
     height: 40px;
@@ -154,7 +154,7 @@ z-index: -1;
     }
 
    .navbar-toggler{
-    background-image: url(img/mezcla/bloque_20x20.png);
+    background-image: url(../img/mezcla/bloque_20x20.png);
     width: 20px;
     height: 20px;
     padding: 0px;
