@@ -1,7 +1,7 @@
 body {
     height: fit-content;
     /* Ruta relativa o completa a la imagen */
-    background-image: url(../img/fondos/azul.png);
+    background-image: url(img/fondos/azul.png);
     /* Centramos el fondo horizontal y verticalmente */
     background-position: center center;
     /* El fonde no se repite */
@@ -59,7 +59,7 @@ z-index: -1;
 }
 
 .imagenBoton{
-    background-image: url(../img/mezcla/bloque-_.png);
+    background-image: url(img/mezcla/bloque-_.png);
 
     width: 40px;
     height: 40px;
