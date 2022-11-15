@@ -14,7 +14,9 @@ body {
 
 #titulo{
     max-width: 200px;
-    height: auto;
+    height: 100px;
+    padding: 10px;
+    
 }
 
 header{
