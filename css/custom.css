@@ -1,6 +1,6 @@
 body {
     /* Ruta relativa o completa a la imagen */
-    background-image: url(/img/fondos/azul.png);
+    background-image: url(img/fondos/azul.png);
     /* Centramos el fondo horizontal y verticalmente */
     background-position: center center;
     /* El fonde no se repite */
