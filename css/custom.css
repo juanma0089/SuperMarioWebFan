@@ -145,6 +145,14 @@ z-index: -1;
         height: 120px;
     }  
 
+    .espaciado{
+        margin-top: -1px;
+    }
+
+    .luigiBack{
+        margin-top: -150px;
+        }
+        
     
 }
 
@@ -166,7 +174,7 @@ z-index: -1;
     }
     
     #mordido{
-        height: 400px;
+        height: 300px;
         margin-top: -90px;
     }
     .section1{
@@ -195,6 +203,14 @@ z-index: -1;
         width: 110px;
         padding: 10px;
         height: 70px;
-    }  
+    }
+
+    .luigiBack{
+    margin-top: -60px;
+    }
+
+    .espaciado{
+        margin-top: -0px;
+    }
 
 }
