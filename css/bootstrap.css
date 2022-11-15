@@ -5820,8 +5820,10 @@ textarea.form-control-lg {
   color: var(--bs-popover-body-color);
 }
 
-.carousel {
+.carousel {  
+  display: flex;
   position: relative;
+  justify-content: center;
 }
 
 .carousel.pointer-event {
@@ -5831,6 +5833,7 @@ textarea.form-control-lg {
 .carousel-inner {
   position: relative;
   width: 100%;
+
   overflow: hidden;
 }
 .carousel-inner::after {
