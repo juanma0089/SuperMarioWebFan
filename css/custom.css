@@ -24,6 +24,10 @@ header{
     
 z-index: -1;
 }
+
+#portada{
+        height: fit-content;
+    }
 .carousel-item{
    
     height: 1020px;
@@ -75,7 +79,7 @@ z-index: -1;
 }
 
 .tubosJuegos{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .carruselJuegos{
@@ -86,6 +90,21 @@ z-index: -1;
 .carrusel2{
     max-height: 300px;
 }
+
+#tuboL{
+    padding: 0px 0px;
+    margin-top: -1220px;
+}
+
+#tuboD{
+    padding: 0px 0px;
+    margin-top: 60px;
+}
+
+
+
+
+
 @media only screen and (max-width: 820px){
     #titulo{
         width: 70px;
@@ -101,15 +120,29 @@ z-index: -1;
     }
 
     .tubosJuegos{
-        padding-top: 100px;
+        padding-top: 190px;
     }
 }
+.col8{
+  margin-top: -1111111px;
+}
+    
 
+#tuboL{
+    padding: 0px 0px;
+    margin-top: 60px;
+}
 
 #tuboD{
     padding: 0px 0px;
-    margin-right: 0px;
+    margin-top: 60px;
 }
+
+
+
+
+
+
 @media only screen and (max-width: 480px){
     #titulo{
         width: 50px;
@@ -132,14 +165,22 @@ z-index: -1;
     
     #mordido{
         height: 400px;
-        margin-top: -100px;
+        margin-top: -90px;
     }
     .section1{
-    margin-top: -10px;
+    margin-top: -30px;
     }
 
     .tubosJuegos{
-        padding-top: 100px;
+        padding-top: 90px;
     }
-
+    #tuboL{
+        padding: 0px 0px;
+        margin-top: 90px;
+    }
+    
+    #tuboD{
+        padding: 0px 0px;
+        margin-top: 90px;
+    }
 }
