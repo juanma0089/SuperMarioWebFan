@@ -12,6 +12,9 @@ body {
     background-size: 50%;
     /* El fonde se re-escala automáticamente */
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 #titulo{
     max-width: 200px;
@@ -170,7 +173,57 @@ z-index: -1;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 50%;
+    
 
+}
+
+/* cartas fondo */
+.cartaMario{
+    background-color:rgba(238, 12, 12, 0.986); 
+}
+.modalMario{
+    background-color:rgba(238, 12, 12, 0.986);
+}
+
+.cartaLuigi{
+    background-color:rgb(10, 165, 74);
+}
+
+.modalLuigi{
+    background-color:rgb(10, 165, 74);
+}
+
+.cartaPrincesa{
+    background-color:rgb(243, 144, 243);
+}
+
+.modalPrincesa{
+    background-color:rgb(243, 144, 243);
+}
+.cartaToad{
+    background-color: rgb(34, 34, 202);
+}
+.modalToad{
+    background-color: rgb(34, 34, 202);
+}
+.cartaBowser{
+    background-color: rgb(253, 207, 0);
+}
+.modalBowser{
+    background-color: rgb(253, 207, 0);
+}
+.cartaYoshi{
+    background-color: rgb(98, 206, 9);
+}
+.modalYoshi{
+    background-color: rgb(98, 206, 9);
+}
+
+/* botones info fondo */
+.botonInfo{
+    background-image: url(../img/mezcla/bloque-_.png);
+    width: 40px;
+    height: 40px;
 }
 
 @media only screen and (max-width: 820px){

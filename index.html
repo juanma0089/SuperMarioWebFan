@@ -197,7 +197,7 @@
           <img src="img/personajes/luigi/luigi-background.png"  class="img-fluid mx-auto d-block luigiBack" alt="">
         </div>
         <!-- Luigi -->
-        <div class="row-col-12 cortePiesLuigi"><img src="img/fondos/corte_fondo.png" class="img-fluid" alt=""><img src="img/fondos/corte_fondo_up.png" class="img-fluid corteCartas" alt=""></div>
+        <div class="row-col-12 cortePiesLuigi"><img src="img/fondos/corte_fondo.png" class="img-fluid " alt=""><img src="img/fondos/corte_fondo_up.png" class="img-fluid corteCartas" alt=""></div>
 
         <!-- mod cartas -->
 
@@ -209,178 +209,226 @@
 
           <div class="row cartas m-0 ">
                         <!-- carta mario replicar -->
-              <div class="card col-lg-3 col-md-3 cartaMario my-4  ms-lg-5 ms-md-4 ms-sm-0">
-                <div class="card col-12 border-0">
-                  <h3 class="card-title text-center my-3">Mario</h3>
+              <div class="card col-lg-3 col-md-3 cartaMario my-4 ms-lg-5 ms-md-4 ms-sm-0">
+                <div class="card col-12 bg-transparent border-0">
+                  <h3 class="card-title text-center text-light my-3">Mario</h3>
                 </div>
                   <img src="img/personajes/mario/mario-closed.png" class="rounded-circle img-fluid" alt="">
                 <div class="card-body ">
+                  <!--  -->
                       <!-- modal de mario -->
-                  <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalMario text-center">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Mario</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 ">
-                          <img src="img/personajes/mario/mario-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/mario/mario-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">El héroe principal del Reino Champiñón. Mario es positivo y siempre está alegre. Lo podrás reconocer por sus tirantes de color azul, su gorra roja y su característico bigote.
+                            <br>
+                            <br>
+                            La princesa Peach lo considera su mejor amigo, y todo el mundo los conoce a él y a su hermano Luigi por valentía.
+                            <br><br>
+                            Mario se destaca en deportes como tenis, golf, béisbol, fútbol y hasta en las carreras de karts. ¡Es bueno en todos los deportes! Es fontanero de profesión, pero la verdad es que es un grand aventurero.
+                            <br><br>
+                            Mario utiliza su poderosa habilidad para saltar y una gran cantidad de mejoras para enfrentarse a su archienemigo, Bowser.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">Info</a>
+                    <a class="btn  botonInfo" data-bs-toggle="modal" href="#exampleModalToggle1" role="button"></a>
                 </div>
               </div>
               <!-- carta mario fin -->
               <div class=" col-lg-1 col-md-1  mx-2 ms-2 ms-md-0"></div>
               <!-- carta Luigi -->
               <div class="card col-lg-3 col-md-3 cartaLuigi my-4 ">
-                <div class="card col-12 border-0">
+                <div class="card col-12 bg-transparent border-0">
                   <h3 class="card-title text-center my-3">Luigi</h3>
                 </div>
                   <img src="img/personajes/luigi/luigi-closed.png" class="rounded-circle img-fluid" alt="">
                 <div class="card-body ">
                       <!-- modal de luigi -->
-                  <div class="modal fade" id="exampleModalToggleluigi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalToggleluigi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalLuigi">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Luigi</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0">
-                          <img src="img/personajes/luigi/luigi-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/luigi/luigi-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">Hermano de Mario y héroe del Reino Champiñón. Luigi es reconocido instantáneamente por su gorra y camisa de color verde.
+                            <br><br>
+                            Luigi es amable, pero un poco de nervioso, especialmente si hay fantasmas por ahí. Sin embargo, sus habilidades igualan las habilidades de Mario, así que cuando estos hermanos se unen, no hay nada que no puedan lograr.
+                            <br><br>
+                            Luigi es más alto y puede saltar más alto que Mario. Si pones atención, también podrás notar que la forma de su bigote también es un poco diferente.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleluigi" role="button">Info</a>
+                    <a class="btn botonInfo" data-bs-toggle="modal" href="#exampleModalToggleluigi" role="button"></a>
                 </div>
               </div>
               <!-- carta luigi fin -->
               <div class=" col-lg-1 col-md-1  ms-lg-4" ></div>
               <!-- carta Princes -->
               <div class="card col-lg-3 col-md-3 cartaPrincesa my-4 ">
-                <div class="card col-12 border-0">
+                <div class="card col-12 bg-transparent border-0">
                   <h3 class="card-title text-center my-3">Princesa Peach</h3>
                 </div>
                   <img src="img/personajes/princesa-peach/peach-closed.png" class="rounded-circle img-fluid" alt="">
                 <div class="card-body ">
                       <!-- modal de princesa -->
-                  <div class="modal fade" id="exampleModalTogglePeach" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalTogglePeach" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalPrincesa">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Princesa Peach</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 border-2">
-                          <img src="img/personajes/princesa-peach/peach-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/princesa-peach/peach-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">La querida princesa del Reino Champiñón. Es extremadamente amable y siempre está trabajando para crear un mundo en el que todos puedan convivir juntos y felices. Su famoso vestido color rosa es encantador.
+                            <br><br>
+                            La princesa Peach siempre está lista para participar en una gran variedad de deportes, y también le encanta hornear y cocinar.
+                            <br><br>
+                            Ella y Mario son muy buenos amigos y siempre están dispuestos a ayudarse mutuamente cuando pueden.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2">sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalTogglePeach" role="button">Info</a>
+                    <a class="btn botonInfo" data-bs-toggle="modal" href="#exampleModalTogglePeach" role="button"></a>
                 </div>
               </div>
               <!-- carta princes fin -->
              
               <!-- carta Toad -->
               <div class="card col-lg-3 col-md-3 cartaToad my-4  ms-lg-5 ms-md-4 ms-sm-0">
-                <div class="card col-12 border-0">
-                  <h3 class="card-title text-center my-3">Toad</h3>
+                <div class="card col-12 bg-transparent border-0">
+                  <h3 class="card-title text-center text-light my-3">Toad</h3>
                 </div>
                   <img src="img/personajes/toad/toad-closed.png" class="rounded-circle img-fluid" alt="">
                 <div class="card-body ">
                       <!-- modal de Toad -->
-                  <div class="modal fade" id="exampleModalToggleToad" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalToggleToad" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalToad">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Toad</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 border-2">
-                          <img src="img/personajes/toad/toad-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/toad/toad-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">Residente del Reino Champiñón, trabaja al servicio de la Princesa Peach. Toad tiene manchas rojas en la cabeza, aunque otros de su especie vienen en una variedad de colores.
+                            <br><br>
+                            Toad es muy alegre y leal. Hace todo lo posible por ayudar a Mario y a Luigi en sus esfuerzos por proteger el Reino Champiñón de Bowser, incluso si eso significa enfrentarse al peligro durante en el proceso.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleToad" role="button">Info</a>
+                    <a class="btn botonInfo" data-bs-toggle="modal" href="#exampleModalToggleToad" role="button"></a>
                 </div>
               </div>
               <!-- carta Toad fin -->
               <div class=" col-lg-1 col-md-1  mx-2 ms-2 ms-md-0"></div>
               <!-- carta Bowser -->
               <div class="card col-lg-3 col-md-3  col-md-3 cartaBowser my-4">
-                <div class="card col-12 border-0 ">
+                <div class="card col-12 bg-transparent border-0 ">
                   <h3 class="card-title text-center my-3">Bowser</h3>
                 </div>
                   <img src="img/personajes/bowser/bowser-closed.png" class="rounded-circle img-fluid" alt="">
                 <div class="card-body ">
                       <!-- modal de Bowser -->
-                  <div class="modal fade" id="exampleModalToggleBowser" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalToggleBowser" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalBowser">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Bowser</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 border-2">
-                          <img src="img/personajes/bowser/bowser-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/bowser/bowser-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">El rey de los Koopas. Bowser es el archienemigo de Mario y siempre está causando estragos en el Reino Champiñón.
+                            <br><br>
+                            Bowser cuenta con muchos secuaces que incluyen a los Koopas, Goombas, Bill Bala y Shy Guys. Cada vez que le pone la mirada al Reino Champiñón sus planes se ven frustrados por Mario y sus amigos.
+                            <br><br>
+                            Este poderoso enemigo posee una gran fuerza y hasta puede escupir fuego.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleBowser" role="button">Info</a>
+                    <a class="btn botonInfo" data-bs-toggle="modal" href="#exampleModalToggleBowser" role="button"></a>
                 </div>
               </div>
               <!-- carta Bowser fin -->
              <div class=" col-lg-1 col-md-1  ms-lg-4" ></div>
               <!-- carta Yoshi -->
               <div class="card col-lg-3 col-md-3  col-md-3 cartaYoshi my-4 ">
-                <div class="card col-12 border-0">
+                <div class="card col-12 bg-transparent border-0">
                   <h3 class="card-title text-center my-3">Yoshi</h3>
                 </div>
                   <img src="img/personajes/yoshi/yoshi-closed.png" class="rounded-circle  img-fluid " alt="">
                 <div class="card-body ">
-                      <!-- modal de Bowser -->
-                  <div class="modal fade" id="exampleModalToggleYoshi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                      <!-- modal de Yoshi -->
+                  <div class="modal fade modal-dialog-scrollable" id="exampleModalToggleYoshi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
                     <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header ">
+                      <div class="modal-content modalYoshi">
+                        <div class="modal-header border-0 ">
                           <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Yoshi</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 border-2">
-                          <img src="img/personajes/yoshi/yoshi-closed.png" class="card-img-top img-fluid" alt="...">
+                          <img src="img/personajes/yoshi/yoshi-open.png" class="card-img-top img-fluid w-75" alt="...">
                         </div>
+                        <span class=" bg-light rounded text-lg-start mx-2">
+                          <h6 class="p-3">El fiel compañero de Mario originario de la Isla de Yoshi. Es de color verde, pero otros de su especie vienen de otros colores, como rojo, azul, rosa y amarillo.
+                          <br><br>
+                            Yoshi es amable y tranquilo. Utiliza su larga lengua para comerse las frutas y a los enemigos, los cuales puede convertir en huevos que podrá arrojar.
+                          </h6>
+                        </span>
                         <div class="modal-footer border-0">
                           <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleYoshi" role="button">Info</a>
+                    <a class="btn botonInfo" data-bs-toggle="modal" href="#exampleModalToggleYoshi" role="button"></a>
                 </div>
               </div>
-              <!-- carta Bowser fin -->
+              <!-- carta Yoshi fin -->
             </div>
             <!--fin del contenedor de cartas  -->
       </section>
