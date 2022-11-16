@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="./css/custom.css" rel="stylesheet">
     <script defer src="./js/bootstrap.bundle.js"></script>
     <script defer src="./js/custom.js"></script>
@@ -221,7 +222,7 @@
                     <div class="modal-dialog modal-dialog-centered">
                       <div class="modal-content modalMario text-center">
                         <div class="modal-header border-0 ">
-                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Mario</h3>
+                          <h3 class="modal-title fs-5 text-light" id="exampleModalToggleLabel">Mario</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 ">
@@ -233,18 +234,19 @@
                             <br>
                             La princesa Peach lo considera su mejor amigo, y todo el mundo los conoce a él y a su hermano Luigi por valentía.
                             <br><br>
-                            Mario se destaca en deportes como tenis, golf, béisbol, fútbol y hasta en las carreras de karts. ¡Es bueno en todos los deportes! Es fontanero de profesión, pero la verdad es que es un grand aventurero.
+                            Mario destaca en deportes como tenis, golf, béisbol, fútbol y hasta en las carreras de karts. ¡Es bueno en todos los deportes! Es fontanero de profesión, pero la verdad es que es un grand aventurero.
                             <br><br>
                             Mario utiliza su poderosa habilidad para saltar y una gran cantidad de mejoras para enfrentarse a su archienemigo, Bowser.
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario"   data-bs-target="#exampleModalToggle2" onclick="playMusic(0)"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(1)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                    <a class="btn  botonInfo" data-bs-toggle="modal" href="#exampleModalToggle1" role="button"></a>
+                    <a class="btn  botonInfo " data-bs-toggle="modal" href="#exampleModalToggle1" role="button"></a>
                 </div>
               </div>
               <!-- carta mario fin -->
@@ -276,7 +278,8 @@
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario" onclick="playMusic(2)"  data-bs-target="#exampleModalToggle2"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(3)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
@@ -313,7 +316,8 @@
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2">sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario" onclick="playMusic(4)"  data-bs-target="#exampleModalToggle2"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(5)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
@@ -335,7 +339,7 @@
                     <div class="modal-dialog modal-dialog-centered">
                       <div class="modal-content modalToad">
                         <div class="modal-header border-0 ">
-                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Toad</h3>
+                          <h3 class="modal-title fs-5 text-light" id="exampleModalToggleLabel">Toad</h3>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-0 border-2">
@@ -348,7 +352,8 @@
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario" onclick="playMusic(6)"  data-bs-target="#exampleModalToggle2"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(7)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
@@ -385,7 +390,8 @@
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario" onclick="playMusic(8)"  data-bs-target="#exampleModalToggle2"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(9)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
@@ -420,7 +426,8 @@
                           </h6>
                         </span>
                         <div class="modal-footer border-0">
-                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                          <button class="btn btn-primary " id="voz1mario" onclick="playMusic(10)"  data-bs-target="#exampleModalToggle2"><i class="bi bi-volume-up-fill"></i> voz 1</button>
+                          <button class="btn btn-primary reproductor" id="voz2mario" data-bs-target="#exampleModalToggle2" onclick="playMusic(11)"><i class="bi bi-volume-up-fill"></i> voz 2</button>
                         </div>
                       </div>
                     </div>
