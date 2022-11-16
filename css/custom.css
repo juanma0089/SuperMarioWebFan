@@ -1,4 +1,5 @@
 body {
+ 
     height: fit-content;
     /* Ruta relativa o completa a la imagen */
     background-image: url(../img/fondos/azul.png);
@@ -142,6 +143,20 @@ z-index: -1;
 .cortePiesLuigi{
     margin-top: -300px;
     z-index: 0;
+}
+
+
+
+.personajes{
+    background-image: url(../img/fondos/fibra.jpg);
+
+    background-position: center center;
+    /* El fonde no se repite */
+    background-repeat: repeat;
+    /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+    background-attachment: fixed;
+    background-size: 50%;
+    /* El fonde se re-escala automáticamente */
 }
 @media only screen and (max-width: 820px){
  

@@ -11,7 +11,7 @@
   </head>
 
   <body>
-  <div class="row-cols-12 container-fluid p-0" id="conPrincipal">
+    <div class="row-cols-12 container-fluid p-0" id="conPrincipal">
           <!-- cabecera -->
           <header class="row-col-12 text-center">
               <img src="img/mezcla/Super_Mario_logo_PNG13.png" id="titulo" class="img-fluid " alt=""srcset=""/>
@@ -199,107 +199,186 @@
         <!-- Luigi -->
         <div class="row-col-12 cortePiesLuigi"><img src="img/fondos/corte_fondo.png" class="img-fluid" alt=""></div>
 
-        <!--  -->
-        <article class="container-fluid fondoCartas p-0 personajes text-center"  >
+        <!-- mod cartas -->
 
-          <section class="row-col-12 seccion1personajes" >
+        <article class="container-fluid fondoCartas personajes text-center"  >
+         
+          <!-- mod cartas -->
+      <section class="row-col-12 seccion1personajes" >
+            <div class=" row p-5 bg-transparent m-0 col-12" > 
 
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-              Launch
-            </button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="row cartas m-0 ">
+                        <!-- carta mario replicar -->
+              <div class="card col-lg-4 cartaMario">
+                <div class="card col-12  bg-danger">
+                  <h3 class="card-title text-center my-3">Mario</h3>
+                </div>
+                  <img src="img/personajes/mario/mario-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de mario -->
+                  <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Mario</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 ">
+                          <img src="img/personajes/mario/mario-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
                       </div>
-                  <div class="modal-body">
-                    <div class="container-fluid">
-                      Add rows here
                     </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save</button>
-                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggle1" role="button">Info</a>
                 </div>
               </div>
+              <!-- carta mario fin -->
+              <!-- carta Luigi -->
+              <div class="card col-lg-4 cartaLuigi">
+                <div class="card col-12 border-4 bg-danger">
+                  <h3 class="card-title text-center my-3">Luigi</h3>
+                </div>
+                  <img src="img/personajes/luigi/luigi-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de luigi -->
+                  <div class="modal fade" id="exampleModalToggleluigi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Luigi</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 border-2">
+                          <img src="img/personajes/luigi/luigi-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleluigi" role="button">Info</a>
+                </div>
+              </div>
+              <!-- carta luigi fin -->
+              <!-- carta Princes -->
+              <div class="card col-lg-4 cartaPrincesa">
+                <div class="card col-12 border-4 bg-danger">
+                  <h3 class="card-title text-center my-3">Princesa Peach</h3>
+                </div>
+                  <img src="img/personajes/princesa-peach/peach-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de princesa -->
+                  <div class="modal fade" id="exampleModalTogglePeach" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Princesa Peach</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 border-2">
+                          <img src="img/personajes/princesa-peach/peach-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalTogglePeach" role="button">Info</a>
+                </div>
+              </div>
+              <!-- carta princes fin -->
+              <!-- carta Toad -->
+              <div class="card col-lg-4 cartaToad">
+                <div class="card col-12 border-4 bg-danger">
+                  <h3 class="card-title text-center my-3">Toad</h3>
+                </div>
+                  <img src="img/personajes/toad/toad-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de Toad -->
+                  <div class="modal fade" id="exampleModalToggleToad" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Toad</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 border-2">
+                          <img src="img/personajes/toad/toad-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleToad" role="button">Info</a>
+                </div>
+              </div>
+              <!-- carta Toad fin -->
+              <!-- carta Bowser -->
+              <div class="card col-lg-4 cartaToad">
+                <div class="card col-12 border-4 bg-danger">
+                  <h3 class="card-title text-center my-3">Bowser</h3>
+                </div>
+                  <img src="img/personajes/bowser/bowser-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de Bowser -->
+                  <div class="modal fade" id="exampleModalToggleBowser" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Bowser</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 border-2">
+                          <img src="img/personajes/bowser/bowser-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleBowser" role="button">Info</a>
+                </div>
+              </div>
+              <!-- carta Bowser fin -->
+              <!-- carta Yoshi -->
+              <div class="card col-lg-4 cartaYoshi">
+                <div class="card col-12 border-4 bg-danger">
+                  <h3 class="card-title text-center my-3">Yoshi</h3>
+                </div>
+                  <img src="img/personajes/yoshi/yoshi-closed.png" class="rounded-circle img-fluid" alt="">
+                <div class="card-body ">
+                      <!-- modal de Bowser -->
+                  <div class="modal fade" id="exampleModalToggleYoshi" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header ">
+                          <h3 class="modal-title fs-5" id="exampleModalToggleLabel">Yoshi</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 border-2">
+                          <img src="img/personajes/yoshi/yoshi-closed.png" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" >sonidos</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <a class="btn btn-warning" data-bs-toggle="modal" href="#exampleModalToggleYoshi" role="button">Info</a>
+                </div>
+              </div>
+              <!-- carta Bowser fin -->
             </div>
-            
-            <script>
-              var modalId = document.getElementById('modalId');
-            
-              modalId.addEventListener('show.bs.modal', function (event) {
-                  // Button that triggered the modal
-                  let button = event.relatedTarget;
-                  // Extract info from data-bs-* attributes
-                  let recipient = button.getAttribute('data-bs-whatever');
-            
-                // Use above variables to manipulate the DOM
-              });
-            </script>
-            
-            <div class=" row p-5 bg-transparent m-0 col-12" > 
-              
-              <div class="card col-lg-4 col-md-12 col-sm-12">
-                <h3 class="card-title my-3">Mario</h3>
-                <img src="img/personajes/mario/mario-closed.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body ">
-                 
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            
-                <div class="card col-lg-4 col-md-12 ">
-                  <h3 class="card-title my-3">Luigi</h3>
-                  <img src="img/personajes/luigi/luigi-closed.png" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-
-                <div class="card col-lg-4 col-md-12">
-                  <h3 class="card-title my-3">Princesa Peach</h3>
-                  <img src="img/personajes/princesa-peach/peach-closed.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-
-          
-
-            <div class=" row m-0 bg-danger  p-0 col-12 "> 
-              
-              <div class="card col-lg-4 col-md-12 col-sm-12">
-                <h3 class="card-title my-3">Toad</h3>
-                <img src="img/personajes/toad/toad-closed.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body ">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            
-                <div class="card col-lg-4 col-md-12 ">
-                  <h3 class="card-title my-3">Bowser</h3>
-                  <img src="img/personajes/bowser/bowser-closed.png" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-
-                <div class="card col-lg-4 col-md-12">
-                  <img src="img/personajes/yoshi/yoshi-closed.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h3 class="card-title">Yoshi</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-
-          </section>
+            <!--fin del contenedor de cartas  -->
+      </section>
 
   </body>
   <footer class="row-col-12 bg-warning">footer<img src="" alt=""></footer>
