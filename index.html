@@ -196,34 +196,77 @@
         <div class="row-cols-2 ">
           <img src="img/personajes/luigi/luigi-background.png"  class="img-fluid mx-auto d-block luigiBack" alt="">
         </div>
+        <!-- Luigi -->
         <div class="row-col-12 cortePiesLuigi"><img src="img/fondos/corte_fondo.png" class="img-fluid" alt=""></div>
 
+        <!--  -->
         <article class="container-fluid fondoCartas p-0 personajes text-center"  >
 
           <section class="row-col-12 seccion1personajes" >
 
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
+              Launch
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      Add rows here
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <script>
+              var modalId = document.getElementById('modalId');
+            
+              modalId.addEventListener('show.bs.modal', function (event) {
+                  // Button that triggered the modal
+                  let button = event.relatedTarget;
+                  // Extract info from data-bs-* attributes
+                  let recipient = button.getAttribute('data-bs-whatever');
+            
+                // Use above variables to manipulate the DOM
+              });
+            </script>
+            
             <div class=" row p-5 bg-transparent m-0 col-12" > 
               
               <div class="card col-lg-4 col-md-12 col-sm-12">
+                <h3 class="card-title my-3">Mario</h3>
                 <img src="img/personajes/mario/mario-closed.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body ">
-                  <h3 class="card-title">Mario</h3>
+                 
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             
                 <div class="card col-lg-4 col-md-12 ">
+                  <h3 class="card-title my-3">Luigi</h3>
                   <img src="img/personajes/luigi/luigi-closed.png" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
-                    <h3 class="card-title">Luigi</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
 
                 <div class="card col-lg-4 col-md-12">
+                  <h3 class="card-title my-3">Princesa Peach</h3>
                   <img src="img/personajes/princesa-peach/peach-closed.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h3 class="card-title">Princesa Peach</h3>
                     <p class="card-text">make up the bulk of the card's content.</p>
                   </div>
                 </div>
@@ -233,17 +276,17 @@
             <div class=" row m-0 bg-danger  p-0 col-12 "> 
               
               <div class="card col-lg-4 col-md-12 col-sm-12">
+                <h3 class="card-title my-3">Toad</h3>
                 <img src="img/personajes/toad/toad-closed.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body ">
-                  <h3 class="card-title">Toad</h3>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             
                 <div class="card col-lg-4 col-md-12 ">
+                  <h3 class="card-title my-3">Bowser</h3>
                   <img src="img/personajes/bowser/bowser-closed.png" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
-                    <h3 class="card-title">Bowser</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
