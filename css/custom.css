@@ -219,14 +219,24 @@ z-index: -1;
 }
 .botonUp{
     background-image: url(../img/mezcla/upmario1.png);
-    width: 84px;
-    height: 99px;
+    width: 80px;
+    height: 110px;
     z-index: 20;
 
 }
 
 a{
 text-decoration:none;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
 
 @media only screen and (max-width: 820px){
