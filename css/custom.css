@@ -167,44 +167,34 @@ z-index: -1;
 }
 
 /* cartas fondo */
-.cartaMario{
-    background-color:rgba(238, 12, 12, 0.986); 
+.sombraCartas{
+    box-shadow: inset 1px 1px 15px 1px;
 }
-.modalMario{
+
+.cartaMario{
     background-color:rgba(238, 12, 12, 0.986);
+
 }
 
 .cartaLuigi{
     background-color:rgb(10, 165, 74);
-}
-
-.modalLuigi{
-    background-color:rgb(10, 165, 74);
+  
 }
 
 .cartaPrincesa{
     background-color:rgb(243, 144, 243);
+  
 }
 
-.modalPrincesa{
-    background-color:rgb(243, 144, 243);
-}
 .cartaToad{
     background-color: rgb(34, 34, 202);
 }
-.modalToad{
-    background-color: rgb(34, 34, 202);
-}
+
 .cartaBowser{
     background-color: rgb(253, 207, 0);
 }
-.modalBowser{
-    background-color: rgb(253, 207, 0);
-}
+
 .cartaYoshi{
-    background-color: rgb(98, 206, 9);
-}
-.modalYoshi{
     background-color: rgb(98, 206, 9);
 }
 
@@ -215,30 +205,15 @@ z-index: -1;
     height: 40px;
 }
 
-#persecucion{
-    position: relative;  
-    animation-name: panel-sea;  
-    animation-duration: 6s;  
-    animation-iteration-count: infinite;
+.fondoPerse{
+    background-color:rgba(238, 12, 12, 0.986); 
+    box-shadow: inset 2px 2px 15px 3px;
 }
-@keyframes panel-sea {
-    0% {
-      left: 0px;
-    }
-    
-    50% {
-      left: 100vw;
-      transform: rotateY(180deg);
-    }
-    
-    100%{
-        left: 10px;
-    }
 
-    
-  }
+.textoSombra{
+    box-shadow:  1px 1px 20px 1px;
 
-  
+}  
 
 @media only screen and (max-width: 820px){
  
@@ -281,6 +256,9 @@ z-index: -1;
         margin-top: -180px;
    
     } 
+    #persecucion{
+        width: 200px;
+    }
  
 }
 
