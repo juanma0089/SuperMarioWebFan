@@ -249,10 +249,12 @@ position:relative;
 #inneriframe
 {
 position:absolute;
-top:-412px;
-left:-18px;
+top:-614px;
+/* pos en nuestra pantalla */
+left:380px;
 width:1280px;
-height: 1300px;
+/* configurar hacia abajo */
+height: 1550px;
 }
 
 
@@ -308,6 +310,15 @@ height: 1300px;
     } 
     #persecucion{
         width: 200px;
+    }
+    #inneriframe
+    {
+    position:absolute;
+    /* quitamos todo lo que hay por arriba del frame */
+    top:-620px;
+    left:0px;
+    width:1280px;
+    height:1170px;
     }
 
 }
@@ -370,6 +381,15 @@ height: 1300px;
 
     .espaciado{
         margin-top: -1px;
+    }
+    #inneriframe
+    {
+    position:absolute;
+    /* quitamos todo lo que hay por arriba del frame */
+    top:-800px;
+    left:0px;
+    width:1280px;
+    height:1080px;
     }
   
 }
