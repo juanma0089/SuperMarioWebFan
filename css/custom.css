@@ -1,5 +1,5 @@
 body {
- 
+
     height: fit-content;
     /* Ruta relativa o completa a la imagen */
     background-image: url(../img/fondos/azul.png);
@@ -12,222 +12,230 @@ body {
     background-size: 50%;
     /* El fonde se re-escala automáticamente */
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
 
-#titulo{
+#titulo {
     max-width: 200px;
     height: 100px;
     padding: 10px;
-    
+
 }
 
-header{
-    background-color:rgb(254, 0, 0);
+header {
+    background-color: rgb(254, 0, 0);
     box-shadow: inset 2px 2px 15px 3px;
 }
 
-#menu{
+#menu {
     background-image: url(../img/fondos/fibra.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-size: 50%;
 }
-.carrusel1{
-    
-z-index: -1;
+
+.carrusel1 {
+    z-index: -1;
 }
 
-#portada{
-        height: fit-content;
-    }
-.carousel-item{
+#portada {
+    height: fit-content;
+}
 
+.carousel-item {
     height: 1020px;
-    
-    }
-.mario{
+}
 
+.mario {
     width: 900px;
 }
-.section1{
+
+.section1 {
     margin-top: -300px;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin: auto;
 }
-#mordido{
-    
+
+#mordido {
+
     height: 600px;
     margin-top: -190px;
     z-index: -5;
-    background-color:rgb(254, 0, 0);
+    background-color: rgb(254, 0, 0);
 }
-#corte{
+
+#corte {
     z-index: 10;
     margin-top: -740px;
 }
 
-.imagenBoton{
+.imagenBoton {
     background-image: url(../img/mezcla/bloque-_.png);
 
     width: 40px;
     height: 40px;
 }
 
-.botonSpace{
+.botonSpace {
     margin-right: 20px;
 }
 
-.botonesMenu{
+.botonesMenu {
     border: 2px solid;
     color: white;
-    background: linear-gradient(to right, transparent  50%,rgb(254, 0, 0) 50%) no-repeat left/200%;
+    background: linear-gradient(to right, transparent 50%, rgb(254, 0, 0) 50%) no-repeat left/200%;
     transition: background-position 0.2s ease;
 }
-.botonesMenu:hover{
+
+.botonesMenu:hover {
     background-position: right;
     border: 2px solid;
     color: white;
     transition: .2s ease-out;
-    
 
 }
 
-.tubosJuegos{
+.tubosJuegos {
     padding-top: 100px;
 }
 
-.carruselJuegos{
+.carruselJuegos {
     z-index: +20;
-    
+
 }
 
-.carrusel2{
+.carrusel2 {
     max-height: 300px;
 }
 
-#tuboL{
+#tuboL {
     padding: 0px 0px;
     margin-top: -1220px;
     z-index: 100;
 }
 
-#tuboD{
+#tuboD {
     padding: 0px 0px;
     margin-top: 60px;
 }
 
-.espaciado{
+.espaciado {
     margin-top: -1px;
 }
-.mariobBack{
+
+.mariobBack {
     margin-top: -1000px;
 }
-.luigiBack{
+
+.luigiBack {
     margin-top: -300px;
     z-index: 10;
     position: relative;
 }
 
-.corteUp{
+.corteUp {
     margin-top: -20px;
-    background-color:rgb(254, 0, 0);
+    background-color: rgb(254, 0, 0);
 }
 
-.fondoCartas{
-    background-color:rgb(254, 0, 0);
+.fondoCartas {
+    background-color: rgb(254, 0, 0);
 }
 
-.cortePiesLuigi{
+.cortePiesLuigi {
     margin-top: -300px;
     z-index: 0;
 }
 
 
-.personajes{
+.personajes {
     background-image: url(../img/fondos/fibra.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 50%;
 
-    
+
 }
 
-.corteCartas{
+.corteCartas {
     background-image: url(../img/fondos/fibra.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 50%;
-    
+
 
 }
 
 /* cartas fondo */
-.sombraCartas{
+.sombraCartas {
     box-shadow: inset 1px 1px 15px 1px;
 }
 
-.cartaMario{
-    background-color:rgba(238, 12, 12, 0.986);
+.cartaMario {
+    background-color: rgba(238, 12, 12, 0.986);
 
 }
 
-.cartaLuigi{
-    background-color:rgb(10, 165, 74);
-  
+.cartaLuigi {
+    background-color: rgb(10, 165, 74);
+
 }
 
-.cartaPrincesa{
-    background-color:rgb(243, 144, 243);
-  
+.cartaPrincesa {
+    background-color: rgb(243, 144, 243);
+
 }
 
-.cartaToad{
+.cartaToad {
     background-color: rgb(34, 34, 202);
 }
 
-.cartaBowser{
+.cartaBowser {
     background-color: rgb(253, 207, 0);
 }
 
-.cartaYoshi{
+.cartaYoshi {
     background-color: rgb(98, 206, 9);
 }
 
 /* botones info fondo */
-.botonInfo{
+.botonInfo {
     background-image: url(../img/mezcla/bloque-_.png);
     width: 40px;
     height: 40px;
 }
 
-.fondoPerse{
-    background-color:rgba(238, 12, 12, 0.986); 
+.fondoPerse {
+    background-color: rgba(238, 12, 12, 0.986);
     box-shadow: inset 2px 2px 15px 3px;
 }
 
-.textoSombra{
-    box-shadow:  1px 1px 20px 1px;
+.textoSombra {
+    box-shadow: 1px 1px 20px 1px;
 
-}  
-.iconoFooter{
-    background-color:rgba(238, 12, 12, 0.986);
 }
-.botonUp{
+
+.iconoFooter {
+    background-color: rgba(238, 12, 12, 0.986);
+}
+
+.botonUp {
     background-image: url(../img/mezcla/upmario1.png);
     width: 80px;
     height: 110px;
     z-index: 20;
-
 }
 
-a{
-text-decoration:none;
+a {
+    text-decoration: none;
 }
+
 .header {
     color: #36A0FF;
     font-size: 27px;
@@ -238,25 +246,27 @@ text-decoration:none;
     font-size: 35px;
     color: #36A0FF;
 }
-#outerdiv
-{
-width:446px;
-height:246px;
-overflow:hidden;
-position:relative;
-}
- 
-#inneriframe
-{
-position:absolute;
-top:-614px;
-/* pos en nuestra pantalla */
-left:380px;
-width:1280px;
-/* configurar hacia abajo */
-height: 1550px;
+
+#outerdiv {
+    width: 446px;
+    height: 246px;
+    overflow: hidden;
+    position: relative;
 }
 
+#inneriframe {
+    position: absolute;
+    top: -614px;
+    /* pos en nuestra pantalla */
+    left: 380px;
+    width: 1280px;
+    /* configurar hacia abajo */
+    height: 1550px;
+}
+
+#conPrincipal{
+    
+}
 
 
 
@@ -266,130 +276,137 @@ height: 1550px;
 
 
 
+@media only screen and (max-width: 820px) {
 
-@media only screen and (max-width: 820px){
- 
-    .carousel-item{
-  
+    .carousel-item {
+
         height: 500px;
-        
+
     }
 
-    .section1{
+    .section1 {
         margin-top: -50px;
     }
 
-    .botonesMenu{
+    .botonesMenu {
         background: transparent;
     }
 
-    .tubosJuegos{
+    .tubosJuegos {
         padding-top: 190px;
     }
-    #titulo{
-       padding: 10px;
-        height: 120px;
-    }  
 
-    .espaciado{
+    #titulo {
+        padding: 10px;
+        height: 120px;
+    }
+
+    .espaciado {
         margin-top: -2px;
     }
 
-    .luigiBack{
+    .luigiBack {
         margin-top: -150px;
         z-index: 10;
         position: relative;
     }
-    .cortePiesLuigi{
+
+    .cortePiesLuigi {
         margin-top: -130px;
-       
+
     }
-    .piranaL{
+
+    .piranaL {
         margin-top: -180px;
-   
-    } 
-    #persecucion{
+
+    }
+
+    #persecucion {
         width: 200px;
     }
-    #inneriframe
-    {
-    position:absolute;
-    /* quitamos todo lo que hay por arriba del frame */
-    top:-620px;
-    left:0px;
-    width:1280px;
-    height:1170px;
+
+    #inneriframe {
+        position: absolute;
+        /* quitamos todo lo que hay por arriba del frame */
+        top: -620px;
+        left: 0px;
+        width: 1280px;
+        height: 1170px;
     }
 
 }
 
-@media only screen and (max-width: 480px){
-    #portada{
+@media only screen and (max-width: 480px) {
+    #portada {
         max-width: 100px;
     }
- 
- 
-   .collapse{
-    font-size: small;
-   }
-   .carousel-item{
-  
-    height: 250px;
+
+
+    .collapse {
+        font-size: small;
     }
-    
-    #mordido{
+
+    .carousel-item {
+
+        height: 250px;
+    }
+
+    #mordido {
         height: 300px;
         margin-top: -90px;
     }
-    .section1{
-    margin-top: -20px;
+
+    .section1 {
+        margin-top: -20px;
     }
 
-    .tubosJuegos{
+    .tubosJuegos {
         padding-top: 90px;
     }
-    #tuboL{
-        padding: 0px 0px;
-        margin-top: 40px;
-    }
-    
-    #tuboD{
+
+    #tuboL {
         padding: 0px 0px;
         margin-top: 40px;
     }
 
-    .portadaJuegos{
-
-       width: 100px;
+    #tuboD {
+        padding: 0px 0px;
+        margin-top: 40px;
     }
 
-    #titulo{
+    .portadaJuegos {
+
+        width: 100px;
+    }
+
+    #titulo {
         width: 110px;
         padding: 10px;
         height: 70px;
     }
 
-    .luigiBack{
+    .luigiBack {
         margin-top: -60px;
         z-index: 10;
         position: relative;
     }
-    .cortePiesLuigi{
+
+    .cortePiesLuigi {
         margin-top: -70px;
-       
+
     }
 
-    .espaciado{
+    .espaciado {
         margin-top: -1px;
     }
-    #inneriframe
-    {
-    position:absolute;
-    /* quitamos todo lo que hay por arriba del frame */
-    top:-800px;
-    left:0px;
-    width:1280px;
-    height:1080px;
+
+    #inneriframe {
+        position: absolute;
+        /* quitamos todo lo que hay por arriba del frame */
+        top: -800px;
+        left: 0px;
+        width: 1280px;
+        height: 1080px;
     }
-  
+
 }

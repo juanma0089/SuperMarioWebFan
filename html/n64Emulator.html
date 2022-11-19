@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="../css/custom.css" rel="stylesheet">
+    <script defer src="../js/bootstrap.bundle.js"></script>
+    <script defer src="../js/custom.js"></script>
+    <title>SuperMarioWebFan</title>
+</head>
+
+<body>
+    <div class="container-fluid  p-0" >
+        <div class=" sticky-bottom boton m-2 position-fixed  mb-5 ">
+            <a href="../index.html">
+                <button type="button" class="btn bg-transparent text-light "><h6> Atrás</h6></button>
+            </a>
+        </div>
+        <!-- cabecera -->
+        <header class="text-center" id="up">
+            <img src="../img/mezcla/Super_Mario_logo_PNG13.png" id="titulo" class="img-fluid " alt="" srcset="" />
+        </header>
+
+        <!-- Emulador -->
+
+        <div class="container justify-content-center p-0 align-content-center text-center text-bg-light vh-100">
+            <h1 class="p-5">Emulador Nintendo 64</h1>
+            <div class="row justify-content-center align-items-center mt-5"> 
+                <div style="width:640px;height:480px;max-width:100%">
+                    <div id="game"></div>
+                  </div>
+                  <script type="text/javascript">
+                  EJS_player = '#game';
+                  EJS_gameUrl = '../roms/n64/Super Mario 64 (U) [!].z64'; // Url to Game rom
+                  EJS_core = 'mupen64plus';
+                  </script>
+                  <script src="https://www.emulatorjs.com/loader.js"></script>
+            </div>
+        </div>
+        <!-- Emulador -->
+        
+    <footer class="text-center text-lg-start bg-dark ">
+
+        <div class="container d-flex justify-content-center py-5 ">
+            <a href="https://www.instagram.com/juanma0089/" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 iconoFooter">
+                    <i class="bi bi-instagram"></i>
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-manuel-romalde-mar%C3%ADn-83a6aa17a/" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 iconoFooter">
+                    <i class="bi bi-linkedin"></i>
+                </button>
+            </a>
+            <a href="https://github.com/juanma0089" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 iconoFooter">
+                    <i class="bi bi-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                <img alt="Licencia de Creative Commons" class="img-fluid " style="border-width:0 "
+                    src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+            </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+</body>
+
+</html>
